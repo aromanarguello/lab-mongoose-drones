@@ -8,4 +8,6 @@ const droneSchema = new Schema ({
   maxSpeed: Number
 });
 
+const DroneModel = mongoose.model("Drone", droneSchema);
+
 module.exports = DroneModel;

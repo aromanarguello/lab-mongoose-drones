@@ -1,7 +1,7 @@
 // Iteration #1
 require('../config/drone-setup.js');
 
-const DroneModel = require("../models/drone")
+const DroneModel = require("../models/drone");
 
 const droneInfo = [
   {
@@ -29,5 +29,4 @@ DroneModel.create(droneInfo)
 })
 .catch( err  => {
   console.log(err);
-})
-.exec();
+});
